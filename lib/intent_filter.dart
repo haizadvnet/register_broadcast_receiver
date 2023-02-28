@@ -5,10 +5,10 @@ class IntentFilter {
   final List<String> _categories;
 
   IntentFilter({
-    int? priority,
-    List<String>? actions,
-    List<String>? dataSchemes,
-    List<String>? categories,
+    int priority,
+    List<String> actions,
+    List<String> dataSchemes,
+    List<String> categories,
   })  : _priority = priority ?? 0,
         _actions = actions ?? [],
         _dataSchemes = dataSchemes ?? [],
